@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 
 const RecipeDetail = ({ recipe }) => {
   if (!recipe) {
-    return null; // Don't render anything if no recipe is selected
+    return null;
   }
 
   return (
